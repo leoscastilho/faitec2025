@@ -443,6 +443,7 @@
         }%
         \label{#3}% <-- Updated line
         \input{apendices/#1}%
+        \clearpage
     }{%
         \PackageWarning{appendix}{Arquivo apendices/#1.tex não encontrado}%
     }%
@@ -499,6 +500,7 @@
         }%
         \label{#3}% <-- This is the updated line
         \input{anexos/#1}%
+        \clearpage
     }{%
         \PackageWarning{appendix}{Arquivo anexos/#1.tex não encontrado}%
     }%
